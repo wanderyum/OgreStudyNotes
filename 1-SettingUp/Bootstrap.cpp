@@ -67,6 +67,8 @@ void MyTestApp::setup(void)
     Ogre::Entity* ent = scnMgr->createEntity("Sinbad.mesh");
     Ogre::SceneNode* node = scnMgr->getRootSceneNode()->createChildSceneNode();
     node->attachObject(ent);
+
+    
 }
 //! [setup]
 
